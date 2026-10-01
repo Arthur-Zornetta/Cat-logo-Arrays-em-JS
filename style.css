@@ -17,6 +17,15 @@
             background-color: #ffffff;
         }
 
+        #mensagem {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: rgb(5, 1, 37);
+            font-size: 1.2em;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
 
         .busca-container {
             display: flex;
@@ -48,6 +57,7 @@
         .card {
             background-color: #ffffff;
             border-radius: 8px;
+            border: 2px solid #000000;
             padding: 35px;
             text-align: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -91,8 +101,8 @@
 
         .categoria-tag {  
             font-size: 0.75em;
-            background-color: #63a2ff;
-            color: #000000;
+            background-color: #000000;
+            color: #f5f3f3;
             padding: 3px 8px;
             border-radius: 4px;
             display: inline-block;

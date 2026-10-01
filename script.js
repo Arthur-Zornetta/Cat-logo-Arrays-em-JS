@@ -79,7 +79,7 @@
             let htmlCards = "";
 
             if (produtosParaExibir.length === 0) {
-                container.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; color: rgb(5, 1, 37);">Nenhum produto encontrado.</p>`;
+                container.innerHTML = `<p id="mensagem">Nenhum produto encontrado.</p>`;
                 return;
             }
 
